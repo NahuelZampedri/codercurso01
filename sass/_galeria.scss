@@ -1,0 +1,14 @@
+.galeria-grid{
+    .galeria-grid-img{
+        background: rgb(181, 194, 178);
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+    }
+    .img1{
+        width: 250px;
+        height: 200px;
+        margin-top: 15px;
+    }
+}

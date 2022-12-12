@@ -1,0 +1,120 @@
+.envoltura{
+    @media(min-width:300px){
+        margin-bottom: 1.5em;
+        display: grid;
+        grid-template-areas:
+        "header"
+        "nav"
+        "sidebar"
+        "ad"
+        "inicio"
+        "galeria-grid"
+        "footer"
+        gap 20px
+        grid-template-columns 1fr;
+    }
+    @media(min-width:500px){
+        margin-bottom: 1.5em;
+        display: grid;
+        grid-template-areas:
+        "header"
+        "nav"
+        "sidebar"
+        "ad"
+        "inicio"
+        "galeria-grid"
+        "footer";
+        gap: 20px;
+        grid-template-columns: 1fr;
+    }
+    @media(min-width:768px){
+        margin-bottom: 1.5em;
+        display: grid;
+        grid-template-areas:
+        "header"
+        "nav"
+        "sidebar"
+        "ad"
+        "inicio"
+        "galeria-grid"
+        "footer";
+        gap: 20px;
+        grid-template-columns: 1fr;
+    }
+    @media(min-width: 1024px){
+        margin-bottom: 1.5em;
+    display: grid;
+    grid-template-areas:
+    "header"
+    "nav"
+    "sidebar"
+    "ad"
+    "inicio"
+    "galeria-grid"
+    "end"
+    "footer";
+    gap: 20px;
+    grid-template-columns: 1fr;
+}
+}
+
+nav ul{
+    @media(min-width:300px){
+    display: flex;
+    justify-content: space-between;
+    }
+    @media(min-width:500px){
+        display: flex;
+        justify-content: space-between;
+    }
+    @media(min-width:768px){
+    display: flex;
+    flex-direction: column;
+    }
+}
+
+
+.img1{
+    @media(min-width:300px){
+    border: 8px solid rgb(0, 0, 0);
+    max-width: 350px;
+    height: 300px;
+    margin-top: 15px;
+    }
+    @media(min-width:500px){
+        border: 8px solid rgb(0, 0, 0);
+        width: 350px;
+        height: 300px;
+        margin-top: 15px;
+    }
+    @media(min-width:768px){
+        border: 5px solid black;
+        width: 200px;
+        height: 150px;
+    }
+    @media(min-width: 1024px){
+        width:475px;
+        height: 400px;
+        margin-top: 20px;
+    }
+}
+
+footer{
+    @media(min-width:300px){
+        margin-top: 0;
+    }
+    @media(min-width:500px){
+    margin-top: 0;
+    }
+    @media(min-width:768px){
+        margin-top: 1.5em;
+        background: rgb(175, 187, 170);
+    }
+}
+
+.ad{
+    @media(min-width: 1024px){
+    display: flex;
+    justify-content: center;
+}
+}
